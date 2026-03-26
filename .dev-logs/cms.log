@@ -1,0 +1,344 @@
+> Composer\Config::disableProcessTimeout
+[Mon Jan 12 21:14:50 2026] PHP 8.4.10 Development Server (http://localhost:8000) started
+[Mon Jan 12 21:18:17 2026] [::1]:52089 Accepted
+[Mon Jan 12 21:18:17 2026] [::1]:52090 Accepted
+[Mon Jan 12 21:18:18 2026] [::1]:52089 Closing
+[Mon Jan 12 21:18:18 2026] [::1]:52090 [200]: GET /media/panel/981245863c383366a329259d02b8172c/css/style.min.css
+[Mon Jan 12 21:18:18 2026] [::1]:52093 Accepted
+[Mon Jan 12 21:18:18 2026] [::1]:52094 Accepted
+[Mon Jan 12 21:18:18 2026] [::1]:52093 Closing
+[Mon Jan 12 21:18:18 2026] [::1]:52095 Accepted
+[Mon Jan 12 21:18:18 2026] [::1]:52094 [200]: GET /media/panel/981245863c383366a329259d02b8172c/js/vendor.min.js
+[Mon Jan 12 21:18:18 2026] [::1]:52096 Accepted
+[Mon Jan 12 21:18:18 2026] [::1]:52090 Closing
+[Mon Jan 12 21:18:18 2026] [::1]:52095 [200]: GET /media/panel/981245863c383366a329259d02b8172c/js/plugins.js
+[Mon Jan 12 21:18:18 2026] [::1]:52096 [200]: GET /media/panel/981245863c383366a329259d02b8172c/js/index.min.js
+[Mon Jan 12 21:18:18 2026] [::1]:52095 Closing
+[Mon Jan 12 21:18:18 2026] [::1]:52094 Closing
+[Mon Jan 12 21:18:18 2026] [::1]:52096 Closing
+[Mon Jan 12 21:18:18 2026] [::1]:52097 Accepted
+[Mon Jan 12 21:18:18 2026] [::1]:52097 Closing
+[Mon Jan 12 21:18:18 2026] [::1]:52102 Accepted
+[Mon Jan 12 21:18:18 2026] [::1]:52102 [200]: GET /media/panel/981245863c383366a329259d02b8172c/js/vue.esm.browser.min.js
+[Mon Jan 12 21:18:18 2026] [::1]:52102 Closing
+[Mon Jan 12 21:18:18 2026] [::1]:52103 Accepted
+[Mon Jan 12 21:18:18 2026] [::1]:52104 Accepted
+[Mon Jan 12 21:18:18 2026] [::1]:52103 Closing
+[Mon Jan 12 21:18:18 2026] [::1]:52105 Accepted
+[Mon Jan 12 21:18:18 2026] [::1]:52104 Closing
+[Mon Jan 12 21:18:18 2026] [::1]:52105 Closing
+[Mon Jan 12 21:18:18 2026] [::1]:52107 Accepted
+[Mon Jan 12 21:18:18 2026] [::1]:52108 Accepted
+[Mon Jan 12 21:18:18 2026] [::1]:52107 [200]: GET /media/panel/981245863c383366a329259d02b8172c/js/sortable.min.js
+[Mon Jan 12 21:18:18 2026] [::1]:52108 [200]: GET /media/pages/parcours/episode-1/100828117e-1767898476/6-restauration-et-gastronomie-76x.jpg
+[Mon Jan 12 21:18:18 2026] [::1]:52107 Closing
+[Mon Jan 12 21:18:18 2026] [::1]:52108 Closing
+[Mon Jan 12 21:18:18 2026] [::1]:52109 Accepted
+[Mon Jan 12 21:18:18 2026] [::1]:52109 [200]: GET /media/panel/981245863c383366a329259d02b8172c/favicon.svg
+[Mon Jan 12 21:18:18 2026] [::1]:52109 Closing
+[Mon Jan 12 21:18:18 2026] [::1]:52110 Accepted
+[Mon Jan 12 21:18:18 2026] [::1]:52110 [200]: GET /media/panel/981245863c383366a329259d02b8172c/favicon.png
+[Mon Jan 12 21:18:18 2026] [::1]:52110 Closing
+[Mon Jan 12 21:18:27 2026] [::1]:52180 Accepted
+[Mon Jan 12 21:18:27 2026] [::1]:52180 Closing
+[Mon Jan 12 21:18:27 2026] [::1]:52181 Accepted
+[Mon Jan 12 21:18:27 2026] [::1]:52181 [200]: GET /media/pages/home/bf591cd019-1767906161/image-home.jpg
+[Mon Jan 12 21:18:27 2026] [::1]:52181 Closing
+[Mon Jan 12 21:18:35 2026] [::1]:52230 Accepted
+[Mon Jan 12 21:18:35 2026] [::1]:52230 Closing
+[Mon Jan 12 21:18:35 2026] [::1]:52232 Accepted
+[Mon Jan 12 21:18:35 2026] [::1]:52232 [200]: GET /media/pages/parcours/39d5d5dd3f-1768238090/image-home.jpg
+[Mon Jan 12 21:18:35 2026] [::1]:52232 Closing
+[Mon Jan 12 21:18:39 2026] [::1]:52251 Accepted
+[Mon Jan 12 21:18:39 2026] [::1]:52251 Closing
+[Mon Jan 12 21:19:55 2026] [::1]:52660 Accepted
+[Mon Jan 12 21:19:56 2026] [::1]:52660 Closing
+[Mon Jan 12 21:19:56 2026] [::1]:52662 Accepted
+[Mon Jan 12 21:19:56 2026] [::1]:52662 Closing
+[Mon Jan 12 21:19:56 2026] [::1]:52663 Accepted
+[Mon Jan 12 21:19:56 2026] [::1]:52663 Closing
+[Mon Jan 12 21:19:56 2026] [::1]:52664 Accepted
+[Mon Jan 12 21:19:56 2026] [::1]:52664 Closing
+[Mon Jan 12 21:20:27 2026] [::1]:52837 Accepted
+[Mon Jan 12 21:20:27 2026] [::1]:52837 Closing
+[Mon Jan 12 21:20:27 2026] [::1]:52839 Accepted
+[Mon Jan 12 21:20:27 2026] [::1]:52839 [200]: GET /media/pages/parcours/episode-1/a0f113c38f-1767898120/notes-detections_sounds_sonb.mp3
+[Mon Jan 12 21:20:27 2026] [::1]:52839 Closing
+[Mon Jan 12 21:20:27 2026] [::1]:52840 Accepted
+[Mon Jan 12 21:20:27 2026] [::1]:52840 [200]: GET /media/pages/parcours/episode-1/100828117e-1767898476/6-restauration-et-gastronomie.jpg
+[Mon Jan 12 21:20:27 2026] [::1]:52840 Closing
+[Mon Jan 12 21:21:23 2026] [::1]:53151 Accepted
+[Mon Jan 12 21:21:23 2026] [::1]:53151 Closing
+[Mon Jan 12 21:21:23 2026] [::1]:53152 Accepted
+[Mon Jan 12 21:21:23 2026] [::1]:53152 [200]: GET /media/pages/parcours/episode-1/a0f113c38f-1767898120/notes-detections_sounds_sonb.mp3
+[Mon Jan 12 21:21:23 2026] [::1]:53152 Closing
+[Mon Jan 12 21:21:36 2026] [::1]:53228 Accepted
+[Mon Jan 12 21:21:36 2026] [::1]:53228 Closing
+[Mon Jan 12 21:21:38 2026] [::1]:53243 Accepted
+[Mon Jan 12 21:21:38 2026] [::1]:53243 Closing
+[Mon Jan 12 21:21:38 2026] [::1]:53244 Accepted
+[Mon Jan 12 21:21:38 2026] [::1]:53244 Closing
+[Mon Jan 12 21:21:41 2026] [::1]:53262 Accepted
+[Mon Jan 12 21:21:41 2026] [::1]:53262 Closing
+[Mon Jan 12 21:21:42 2026] [::1]:53271 Accepted
+[Mon Jan 12 21:21:42 2026] [::1]:53271 Closing
+[Mon Jan 12 21:21:43 2026] [::1]:53278 Accepted
+[Mon Jan 12 21:21:43 2026] [::1]:53278 Closing
+[Mon Jan 12 21:21:43 2026] [::1]:53280 Accepted
+[Mon Jan 12 21:21:43 2026] [::1]:53281 Accepted
+[Mon Jan 12 21:21:43 2026] [::1]:53282 Accepted
+[Mon Jan 12 21:21:43 2026] [::1]:53280 [200]: GET /media/pages/a-propos/3663d775ca-1768237974/logo-cantonge.svg
+[Mon Jan 12 21:21:43 2026] [::1]:53281 [200]: GET /media/pages/a-propos/382add69e8-1768237974/logo-pic.svg
+[Mon Jan 12 21:21:43 2026] [::1]:53282 [200]: GET /media/pages/a-propos/cac88075ea-1768237974/logo-ville-de-geneve.svg
+[Mon Jan 12 21:21:43 2026] [::1]:53280 Closing
+[Mon Jan 12 21:21:43 2026] [::1]:53281 Closing
+[Mon Jan 12 21:21:43 2026] [::1]:53282 Closing
+[Mon Jan 12 21:22:07 2026] [::1]:53412 Accepted
+[Mon Jan 12 21:22:07 2026] [::1]:53412 Closing
+[Mon Jan 12 21:22:07 2026] [::1]:53414 Accepted
+[Mon Jan 12 21:22:07 2026] [::1]:53414 [200]: GET /media/pages/parcours/39d5d5dd3f-1768238090/image-home.jpg
+[Mon Jan 12 21:22:07 2026] [::1]:53414 Closing
+[Mon Jan 12 21:22:08 2026] [::1]:53418 Accepted
+[Mon Jan 12 21:22:08 2026] [::1]:53418 Closing
+[Mon Jan 12 21:22:09 2026] [::1]:53429 Accepted
+[Mon Jan 12 21:22:09 2026] [::1]:53429 Closing
+[Mon Jan 12 21:22:09 2026] [::1]:53433 Accepted
+[Mon Jan 12 21:22:09 2026] [::1]:53433 Closing
+[Mon Jan 12 21:22:10 2026] [::1]:53443 Accepted
+[Mon Jan 12 21:22:10 2026] [::1]:53443 Closing
+[Mon Jan 12 21:22:13 2026] [::1]:53461 Accepted
+[Mon Jan 12 21:22:13 2026] [::1]:53461 Closing
+[Mon Jan 12 21:22:13 2026] [::1]:53462 Accepted
+[Mon Jan 12 21:22:13 2026] [::1]:53463 Accepted
+[Mon Jan 12 21:22:13 2026] [::1]:53464 Accepted
+[Mon Jan 12 21:22:13 2026] [::1]:53462 [200]: GET /media/pages/a-propos/3663d775ca-1768237974/logo-cantonge.svg
+[Mon Jan 12 21:22:13 2026] [::1]:53463 [200]: GET /media/pages/a-propos/382add69e8-1768237974/logo-pic.svg
+[Mon Jan 12 21:22:13 2026] [::1]:53464 [200]: GET /media/pages/a-propos/cac88075ea-1768237974/logo-ville-de-geneve.svg
+[Mon Jan 12 21:22:13 2026] [::1]:53462 Closing
+[Mon Jan 12 21:22:13 2026] [::1]:53463 Closing
+[Mon Jan 12 21:22:13 2026] [::1]:53464 Closing
+[Mon Jan 12 21:22:26 2026] [::1]:53535 Accepted
+[Mon Jan 12 21:22:27 2026] [::1]:53535 Closing
+[Mon Jan 12 21:22:27 2026] [::1]:53537 Accepted
+[Mon Jan 12 21:22:27 2026] [::1]:53537 [200]: GET /media/pages/home/bf591cd019-1767906161/image-home.jpg
+[Mon Jan 12 21:22:27 2026] [::1]:53537 Closing
+[Mon Jan 12 21:22:30 2026] [::1]:53559 Accepted
+[Mon Jan 12 21:22:30 2026] [::1]:53559 Closing
+[Mon Jan 12 21:22:30 2026] [::1]:53560 Accepted
+[Mon Jan 12 21:22:30 2026] [::1]:53561 Accepted
+[Mon Jan 12 21:22:30 2026] [::1]:53562 Accepted
+[Mon Jan 12 21:22:30 2026] [::1]:53560 Closing
+[Mon Jan 12 21:22:30 2026] [::1]:53561 Closing
+[Mon Jan 12 21:22:30 2026] [::1]:53562 Closing
+[Mon Jan 12 21:22:30 2026] [::1]:53564 Accepted
+[Mon Jan 12 21:22:30 2026] [::1]:53564 [200]: GET /media/pages/parcours/39d5d5dd3f-1768238090/image-home-76x.jpg
+[Mon Jan 12 21:22:30 2026] [::1]:53564 Closing
+[Mon Jan 12 21:22:30 2026] [::1]:53565 Accepted
+[Mon Jan 12 21:22:30 2026] [::1]:53566 Accepted
+[Mon Jan 12 21:22:30 2026] [::1]:53567 Accepted
+[Mon Jan 12 21:22:30 2026] [::1]:53568 Accepted
+[Mon Jan 12 21:22:30 2026] [::1]:53565 [200]: GET /media/pages/parcours/origine-langue/5261b01c01-1767909599/num1.svg
+[Mon Jan 12 21:22:30 2026] [::1]:53566 [200]: GET /media/pages/parcours/exil-et-politique/a83976b5a6-1767949852/num2.svg
+[Mon Jan 12 21:22:30 2026] [::1]:53567 [200]: GET /media/pages/parcours/association-engagement-et-citoyennete/3188fbf27b-1767949844/num3.svg
+[Mon Jan 12 21:22:30 2026] [::1]:53568 [200]: GET /media/pages/parcours/8-economie-domestique-travail-des-femmes-et-travail-informel/b6e6f6436a-1768235125/num8.svg
+[Mon Jan 12 21:22:30 2026] [::1]:53565 Closing
+[Mon Jan 12 21:22:30 2026] [::1]:53566 Closing
+[Mon Jan 12 21:22:30 2026] [::1]:53567 Closing
+[Mon Jan 12 21:22:30 2026] [::1]:53568 Closing
+[Mon Jan 12 21:22:30 2026] [::1]:53569 Accepted
+[Mon Jan 12 21:22:30 2026] [::1]:53570 Accepted
+[Mon Jan 12 21:22:30 2026] [::1]:53569 [200]: GET /media/pages/parcours/episode-1/100828117e-1767898476/6-restauration-et-gastronomie-1408x1126-crop.jpg
+[Mon Jan 12 21:22:30 2026] [::1]:53570 [200]: GET /media/pages/parcours/episode-2/0f701cbcff-1767952166/2-exile-et-politique-1408x1126-crop.jpg
+[Mon Jan 12 21:22:30 2026] [::1]:53569 Closing
+[Mon Jan 12 21:22:30 2026] [::1]:53570 Closing
+[Mon Jan 12 21:22:35 2026] [::1]:53600 Accepted
+[Mon Jan 12 21:22:35 2026] [::1]:53600 Closing
+[Mon Jan 12 21:22:35 2026] [::1]:53602 Accepted
+[Mon Jan 12 21:22:35 2026] [::1]:53602 [200]: GET /media/pages/parcours/39d5d5dd3f-1768238090/image-home.jpg
+[Mon Jan 12 21:22:35 2026] [::1]:53602 Closing
+[Mon Jan 12 21:22:46 2026] [::1]:53663 Accepted
+[Mon Jan 12 21:22:46 2026] [::1]:53663 Closing
+[Mon Jan 12 21:22:46 2026] [::1]:53664 Accepted
+[Mon Jan 12 21:22:46 2026] [::1]:53664 Closing
+[Mon Jan 12 21:22:46 2026] [::1]:53665 Accepted
+[Mon Jan 12 21:22:46 2026] [::1]:53665 Closing
+[Mon Jan 12 21:23:05 2026] [::1]:53766 Accepted
+[Mon Jan 12 21:23:05 2026] [::1]:53766 Closing
+[Mon Jan 12 21:23:05 2026] [::1]:53767 Accepted
+[Mon Jan 12 21:23:05 2026] [::1]:53767 Closing
+[Mon Jan 12 21:23:05 2026] [::1]:53768 Accepted
+[Mon Jan 12 21:23:05 2026] [::1]:53769 Accepted
+[Mon Jan 12 21:23:05 2026] [::1]:53768 Closing
+[Mon Jan 12 21:23:05 2026] [::1]:53770 Accepted
+[Mon Jan 12 21:23:05 2026] [::1]:53769 Closing
+[Mon Jan 12 21:23:05 2026] [::1]:53771 Accepted
+[Mon Jan 12 21:23:05 2026] [::1]:53770 Closing
+[Mon Jan 12 21:23:05 2026] [::1]:53772 Accepted
+[Mon Jan 12 21:23:05 2026] [::1]:53771 Closing
+[Mon Jan 12 21:23:05 2026] [::1]:53773 Accepted
+[Mon Jan 12 21:23:05 2026] [::1]:53772 Closing
+[Mon Jan 12 21:23:05 2026] [::1]:53773 Closing
+[Mon Jan 12 21:23:05 2026] [::1]:53775 Accepted
+[Mon Jan 12 21:23:05 2026] [::1]:53775 [200]: GET /media/pages/parcours/origine-langue/b25686329c-1767889086/5-universite-et-education-76x.jpg
+[Mon Jan 12 21:23:05 2026] [::1]:53775 Closing
+[Mon Jan 12 21:23:16 2026] [::1]:53835 Accepted
+[Mon Jan 12 21:23:16 2026] [::1]:53835 Closing
+[Mon Jan 12 21:23:16 2026] [::1]:53836 Accepted
+[Mon Jan 12 21:23:17 2026] [::1]:53836 Closing
+[Mon Jan 12 21:23:23 2026] [::1]:53868 Accepted
+[Mon Jan 12 21:23:23 2026] [::1]:53868 Closing
+[Mon Jan 12 21:23:23 2026] [::1]:53869 Accepted
+[Mon Jan 12 21:23:23 2026] [::1]:53869 Closing
+[Mon Jan 12 21:23:23 2026] [::1]:53870 Accepted
+[Mon Jan 12 21:23:23 2026] [::1]:53871 Accepted
+[Mon Jan 12 21:23:23 2026] [::1]:53870 Closing
+[Mon Jan 12 21:23:23 2026] [::1]:53871 Closing
+[Mon Jan 12 21:23:24 2026] [::1]:53882 Accepted
+[Mon Jan 12 21:23:24 2026] [::1]:53882 Closing
+[Mon Jan 12 21:23:24 2026] [::1]:53883 Accepted
+[Mon Jan 12 21:23:24 2026] [::1]:53884 Accepted
+[Mon Jan 12 21:23:24 2026] [::1]:53883 Closing
+[Mon Jan 12 21:23:24 2026] [::1]:53885 Accepted
+[Mon Jan 12 21:23:24 2026] [::1]:53884 Closing
+[Mon Jan 12 21:23:24 2026] [::1]:53886 Accepted
+[Mon Jan 12 21:23:24 2026] [::1]:53885 Closing
+[Mon Jan 12 21:23:24 2026] [::1]:53887 Accepted
+[Mon Jan 12 21:23:24 2026] [::1]:53886 Closing
+[Mon Jan 12 21:23:24 2026] [::1]:53888 Accepted
+[Mon Jan 12 21:23:24 2026] [::1]:53887 Closing
+[Mon Jan 12 21:23:24 2026] [::1]:53889 Accepted
+[Mon Jan 12 21:23:24 2026] [::1]:53888 Closing
+[Mon Jan 12 21:23:24 2026] [::1]:53889 Closing
+[Mon Jan 12 21:23:24 2026] [::1]:53891 Accepted
+[Mon Jan 12 21:23:24 2026] [::1]:53892 Accepted
+[Mon Jan 12 21:23:24 2026] [::1]:53891 [200]: GET /media/pages/parcours/8-economie-domestique-travail-des-femmes-et-travail-informel/bc0d3589b4-1768235062/2-fig1.jpg
+[Mon Jan 12 21:23:24 2026] [::1]:53893 Accepted
+[Mon Jan 12 21:23:24 2026] [::1]:53892 [200]: GET /media/pages/parcours/8-economie-domestique-travail-des-femmes-et-travail-informel/49a364ca7e-1768236460/8-economie-domestique-travail-feminin-et-secteur-informel-76x.jpg
+[Mon Jan 12 21:23:24 2026] [::1]:53893 [200]: GET /media/pages/parcours/8-economie-domestique-travail-des-femmes-et-travail-informel/bc0d3589b4-1768235062/2-fig1-76x.jpg
+[Mon Jan 12 21:23:24 2026] [::1]:53892 Closing
+[Mon Jan 12 21:23:24 2026] [::1]:53893 Closing
+[Mon Jan 12 21:23:24 2026] [::1]:53891 Closing
+[Mon Jan 12 21:23:53 2026] [::1]:54045 Accepted
+[Mon Jan 12 21:23:53 2026] [::1]:54045 Closing
+[Mon Jan 12 21:23:53 2026] [::1]:54046 Accepted
+[Mon Jan 12 21:23:53 2026] [::1]:54047 Accepted
+[Mon Jan 12 21:23:53 2026] [::1]:54048 Accepted
+[Mon Jan 12 21:23:53 2026] [::1]:54046 Closing
+[Mon Jan 12 21:23:53 2026] [::1]:54047 Closing
+[Mon Jan 12 21:23:53 2026] [::1]:54048 Closing
+[Mon Jan 12 21:24:58 2026] [::1]:54386 Accepted
+[Mon Jan 12 21:24:58 2026] [::1]:54386 Closing
+[Mon Jan 12 21:24:58 2026] [::1]:54388 Accepted
+[Mon Jan 12 21:24:58 2026] [::1]:54389 Accepted
+[Mon Jan 12 21:24:58 2026] [::1]:54390 Accepted
+[Mon Jan 12 21:24:58 2026] [::1]:54388 Closing
+[Mon Jan 12 21:24:58 2026] [::1]:54389 Closing
+[Mon Jan 12 21:24:58 2026] [::1]:54390 Closing
+[Mon Jan 12 21:24:58 2026] [::1]:54391 Accepted
+[Mon Jan 12 21:24:58 2026] [::1]:54391 Closing
+[Mon Jan 12 21:24:58 2026] [::1]:54396 Accepted
+[Mon Jan 12 21:24:58 2026] [::1]:54396 Closing
+[Mon Jan 12 21:24:58 2026] [::1]:54397 Accepted
+[Mon Jan 12 21:24:58 2026] [::1]:54398 Accepted
+[Mon Jan 12 21:24:58 2026] [::1]:54399 Accepted
+[Mon Jan 12 21:24:58 2026] [::1]:54397 Closing
+[Mon Jan 12 21:24:58 2026] [::1]:54400 Accepted
+[Mon Jan 12 21:24:58 2026] [::1]:54398 Closing
+[Mon Jan 12 21:24:58 2026] [::1]:54399 Closing
+[Mon Jan 12 21:24:58 2026] [::1]:54400 Closing
+[Mon Jan 12 21:25:06 2026] [::1]:54449 Accepted
+[Mon Jan 12 21:25:06 2026] [::1]:54449 Closing
+[Mon Jan 12 21:25:06 2026] [::1]:54450 Accepted
+[Mon Jan 12 21:25:06 2026] [::1]:54450 [200]: GET /media/pages/parcours/origine-langue/1c4c7e1b97-1767895083/notes-detections_sounds_sona.mp3
+[Mon Jan 12 21:25:06 2026] [::1]:54450 Closing
+[Mon Jan 12 21:25:06 2026] [::1]:54451 Accepted
+[Mon Jan 12 21:25:06 2026] [::1]:54451 [200]: GET /media/pages/parcours/origine-langue/b25686329c-1767889086/5-universite-et-education.jpg
+[Mon Jan 12 21:25:06 2026] [::1]:54451 Closing
+[Mon Jan 12 21:25:17 2026] [::1]:54516 Accepted
+[Mon Jan 12 21:25:17 2026] [::1]:54516 Closing
+[Mon Jan 12 21:25:17 2026] [::1]:54518 Accepted
+[Mon Jan 12 21:25:17 2026] [::1]:54518 [200]: GET /media/pages/parcours/39d5d5dd3f-1768238090/image-home.jpg
+[Mon Jan 12 21:25:17 2026] [::1]:54518 Closing
+[Mon Jan 12 21:25:21 2026] [::1]:54544 Accepted
+[Mon Jan 12 21:25:21 2026] [::1]:54544 Closing
+[Mon Jan 12 21:25:21 2026] [::1]:54545 Accepted
+[Mon Jan 12 21:25:21 2026] [::1]:54546 Accepted
+[Mon Jan 12 21:25:21 2026] [::1]:54545 [200]: GET /media/pages/parcours/8-economie-domestique-travail-des-femmes-et-travail-informel/bc0d3589b4-1768235062/2-fig1.jpg
+[Mon Jan 12 21:25:21 2026] [::1]:54546 Closing
+[Mon Jan 12 21:25:21 2026] [::1]:54545 Closing
+[Mon Jan 12 21:25:21 2026] [::1]:54548 Accepted
+[Mon Jan 12 21:25:21 2026] [::1]:54549 Accepted
+[Mon Jan 12 21:25:21 2026] [::1]:54548 [200]: GET /media/pages/parcours/8-economie-domestique-travail-des-femmes-et-travail-informel/49a364ca7e-1768236460/8-economie-domestique-travail-feminin-et-secteur-informel.jpg
+[Mon Jan 12 21:25:21 2026] [::1]:54549 Closing
+[Mon Jan 12 21:25:21 2026] [::1]:54548 Closing
+[Mon Jan 12 21:25:38 2026] [::1]:54640 Accepted
+[Mon Jan 12 21:25:38 2026] [::1]:54640 Closing
+[Mon Jan 12 21:25:38 2026] [::1]:54642 Accepted
+[Mon Jan 12 21:25:38 2026] [::1]:54642 [200]: GET /media/pages/home/bf591cd019-1767906161/image-home.jpg
+[Mon Jan 12 21:25:38 2026] [::1]:54642 Closing
+[Mon Jan 12 21:29:54 2026] [::1]:56006 Accepted
+[Mon Jan 12 21:29:54 2026] [::1]:56006 Closing
+[Mon Jan 12 21:29:54 2026] [::1]:56007 Accepted
+[Mon Jan 12 21:29:54 2026] [::1]:56008 Accepted
+[Mon Jan 12 21:29:54 2026] [::1]:56007 Closing
+[Mon Jan 12 21:29:54 2026] [::1]:56009 Accepted
+[Mon Jan 12 21:29:54 2026] [::1]:56008 Closing
+[Mon Jan 12 21:29:54 2026] [::1]:56009 Closing
+[Mon Jan 12 21:29:54 2026] [::1]:56015 Accepted
+[Mon Jan 12 21:29:54 2026] [::1]:56015 Closing
+[Mon Jan 12 21:29:55 2026] [::1]:56021 Accepted
+[Mon Jan 12 21:29:55 2026] [::1]:56021 Closing
+[Mon Jan 12 21:29:55 2026] [::1]:56022 Accepted
+[Mon Jan 12 21:29:55 2026] [::1]:56023 Accepted
+[Mon Jan 12 21:29:55 2026] [::1]:56022 Closing
+[Mon Jan 12 21:29:55 2026] [::1]:56024 Accepted
+[Mon Jan 12 21:29:55 2026] [::1]:56023 Closing
+[Mon Jan 12 21:29:55 2026] [::1]:56026 Accepted
+[Mon Jan 12 21:29:55 2026] [::1]:56024 Closing
+[Mon Jan 12 21:29:55 2026] [::1]:56026 [200]: GET /media/pages/home/bf591cd019-1767906161/image-home-1408x792-crop.jpg
+[Mon Jan 12 21:29:55 2026] [::1]:56026 Closing
+[Mon Jan 12 21:29:55 2026] [::1]:56027 Accepted
+[Mon Jan 12 21:29:55 2026] [::1]:56027 [200]: GET /media/pages/a-propos/3663d775ca-1768237974/logo-cantonge.svg
+[Mon Jan 12 21:29:55 2026] [::1]:56027 Closing
+[Mon Jan 12 21:30:01 2026] [::1]:56054 Accepted
+[Mon Jan 12 21:30:01 2026] [::1]:56054 Closing
+[Mon Jan 12 21:30:01 2026] [::1]:56056 Accepted
+[Mon Jan 12 21:30:01 2026] [::1]:56057 Accepted
+[Mon Jan 12 21:30:01 2026] [::1]:56056 Closing
+[Mon Jan 12 21:30:01 2026] [::1]:56058 Accepted
+[Mon Jan 12 21:30:01 2026] [::1]:56057 Closing
+[Mon Jan 12 21:30:01 2026] [::1]:56058 Closing
+[Mon Jan 12 21:30:03 2026] [::1]:56070 Accepted
+[Mon Jan 12 21:30:03 2026] [::1]:56070 Closing
+[Mon Jan 12 21:30:03 2026] [::1]:56071 Accepted
+[Mon Jan 12 21:30:03 2026] [::1]:56072 Accepted
+[Mon Jan 12 21:30:03 2026] [::1]:56071 Closing
+[Mon Jan 12 21:30:03 2026] [::1]:56073 Accepted
+[Mon Jan 12 21:30:03 2026] [::1]:56072 Closing
+[Mon Jan 12 21:30:03 2026] [::1]:56073 Closing
+[Mon Jan 12 21:30:05 2026] [::1]:56087 Accepted
+[Mon Jan 12 21:30:05 2026] [::1]:56087 Closing
+[Mon Jan 12 21:30:05 2026] [::1]:56088 Accepted
+[Mon Jan 12 21:30:05 2026] [::1]:56088 Closing
+[Mon Jan 12 21:30:07 2026] [::1]:56100 Accepted
+[Mon Jan 12 21:30:07 2026] [::1]:56100 Closing
+[Mon Jan 12 21:30:07 2026] [::1]:56101 Accepted
+[Mon Jan 12 21:30:07 2026] [::1]:56101 Closing
+[Mon Jan 12 21:30:07 2026] [::1]:56102 Accepted
+[Mon Jan 12 21:30:07 2026] [::1]:56103 Accepted
+[Mon Jan 12 21:30:07 2026] [::1]:56102 [200]: GET /media/pages/a-propos/382add69e8-1768237974/logo-pic.svg
+[Mon Jan 12 21:30:07 2026] [::1]:56103 [200]: GET /media/pages/a-propos/cac88075ea-1768237974/logo-ville-de-geneve.svg
+[Mon Jan 12 21:30:07 2026] [::1]:56102 Closing
+[Mon Jan 12 21:30:07 2026] [::1]:56103 Closing
+[Mon Jan 12 21:30:08 2026] [::1]:56109 Accepted
+[Mon Jan 12 21:30:08 2026] [::1]:56109 Closing
+[Mon Jan 12 21:30:08 2026] [::1]:56110 Accepted
+[Mon Jan 12 21:30:08 2026] [::1]:56110 Closing
+[Mon Jan 12 21:30:12 2026] [::1]:56131 Accepted
+[Mon Jan 12 21:30:12 2026] [::1]:56131 Closing
+[Mon Jan 12 21:30:12 2026] [::1]:56132 Accepted
+[Mon Jan 12 21:30:12 2026] [::1]:56133 Accepted
+[Mon Jan 12 21:30:12 2026] [::1]:56132 Closing
+[Mon Jan 12 21:30:12 2026] [::1]:56134 Accepted
+[Mon Jan 12 21:30:12 2026] [::1]:56133 Closing
+[Mon Jan 12 21:30:12 2026] [::1]:56134 Closing

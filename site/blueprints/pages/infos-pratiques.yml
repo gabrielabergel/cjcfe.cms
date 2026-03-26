@@ -1,0 +1,309 @@
+title: Infos pratiques
+
+icon: 📋
+
+status:
+  draft:
+    label: Brouillon
+    text: La page est en mode brouillon. Elle ne peut être vue que par les éditeurs avec accès au Panel.
+  listed:
+    label: Publiée
+    text: La page est en ligne et visible sur le site
+
+options:
+  changeSlug: true
+  delete: false
+
+tabs:
+  content:
+    icon: text
+    label: Contenu
+    sections:
+      header:
+        type: fields
+        fields:
+          titre:
+            label: Titre
+            type: blocks
+            width: 1/3
+            fieldsets:
+              - heading
+          soustitre:
+            label: Sous-titre
+            type: blocks
+            width: 1/3
+            fieldsets:
+              - text
+          cover:
+            label: Cover
+            type: files
+            width: 1/3
+            max: 1
+            uploads:
+              template: image
+
+  horaires:
+    icon: clock
+    label: Horaires
+    sections:
+      shabbat:
+        type: fields
+        fields:
+          shabbat_paracha:
+            label: Paracha de la semaine
+            type: select
+            options:
+              bereshit: Bereshit
+              noah: Noah
+              lekh-lekha: Lekh Lekha
+              vayera: Vayera
+              haye-sarah: Hayé Sarah
+              toledot: Toledot
+              vayetse: Vayétsé
+              vayishlah: Vayishlah
+              vayeshev: Vayeshev
+              mikkets: Mikkets
+              vayigash: Vayigash
+              vayehi: Vayehi
+              shemot: Shemot
+              vaera: Vaéra
+              bo: Bo
+              beshalah: Beshalah
+              yitro: Yitro
+              mishpatim: Mishpatim
+              terouma: Terouma
+              tetsave: Tetsavé
+              ki-tissa: Ki Tissa
+              vayakhel: Vayakhel
+              pekoude: Pekoudé
+              vayikra: Vayikra
+              tsav: Tsav
+              shemini: Shemini
+              tazria: Tazria
+              metsora: Metsora
+              ahare-mot: Aharé Mot
+              kedoshim: Kedoshim
+              emor: Emor
+              behar: Behar
+              behoukotai: Behoukotaï
+              bamidbar: Bamidbar
+              nasso: Nasso
+              behaalotekha: Behaalotekha
+              shelah-lekha: Shelah Lekha
+              korah: Korah
+              houkat: Houkat
+              balak: Balak
+              pinhas: Pin'has
+              matot: Matot
+              massei: Massé
+              devarim: Devarim
+              vaethanan: Vaet'hanan
+              ekev: Ekev
+              ree: Reé
+              shoftim: Shoftim
+              ki-tetse: Ki Tétsé
+              ki-tavo: Ki Tavo
+              nitsavim: Nitsavim
+              vayelekh: Vayélekh
+              haazinou: Haazinou
+              vezot-haberakha: Vezot Haberakha
+          shabbat_debut_date:
+            label: Date de début
+            type: date
+            width: 1/4
+            help: Vendredi
+          shabbat_debut_heure:
+            label: Heure de début
+            type: time
+            step: 1
+            width: 1/4
+            help: Vendredi
+          shabbat_fin_date:
+            label: Date de fin
+            type: date
+            width: 1/4
+            help: Samedi
+          shabbat_fin_heure:
+            label: Heure de fin
+            type: time
+            step: 1
+            width: 1/4
+            help: Samedi
+          offices_titre:
+            label: Titre section Offices
+            type: text
+          vendredi_soir:
+            label: Office vendredi soir
+            type: text
+            width: 1/2
+          samedi_matin:
+            label: Office samedi matin
+            type: text
+            width: 1/2
+          fetes_activer:
+            label: Afficher les horaires des fêtes juives
+            type: toggle
+            text:
+              - Non
+              - Oui
+          fetes_nom:
+            label: Fête juive
+            type: select
+            options:
+              rosh-hashana: Roch Hachana
+              yom-kippour: Yom Kippour
+              souccot: Souccot
+              chemini-atseret: Chemini Atseret
+              simhat-torah: Sim'hat Torah
+              hanoukka: Hanoukka
+              tou-bichvat: Tou Bichvat
+              pourim: Pourim
+              pessah: Pessah
+              yom-hashoah: Yom HaShoah
+              yom-haatsmaout: Yom HaAtsmaout
+              lag-baomer: Lag BaOmer
+              chavouot: Chavouot
+              tisha-beav: Tisha BeAv
+            when:
+              fetes_activer: true
+          fetes_debut_date:
+            label: Date de début
+            type: date
+            width: 1/4
+            help: Vendredi
+            when:
+              fetes_activer: true
+          fetes_debut_heure:
+            label: Heure de début
+            type: time
+            step: 1
+            width: 1/4
+            help: Vendredi
+            when:
+              fetes_activer: true
+          fetes_fin_date:
+            label: Date de fin
+            type: date
+            width: 1/4
+            help: Samedi
+            when:
+              fetes_activer: true
+          fetes_fin_heure:
+            label: Heure de fin
+            type: time
+            step: 1
+            width: 1/4
+            help: Samedi
+            when:
+              fetes_activer: true
+
+  prieres:
+    icon: heart
+    label: Demande de prières
+    sections:
+      prieres_header:
+        type: fields
+        fields:
+          prieres_page_titre:
+            label: Titre
+            type: blocks
+            width: 1/3
+            fieldsets:
+              - heading
+          prieres_page_soustitre:
+            label: Sous-titre
+            type: blocks
+            width: 1/3
+            fieldsets:
+              - text
+      prieres:
+        type: fields
+        fields:
+          prieres_titre:
+            label: Titre
+            type: text
+          prieres_texte:
+            label: Paragraphe
+            type: textarea
+            size: medium
+          prieres_bouton_texte:
+            label: Texte du bouton
+            type: text
+            width: 1/2
+          prieres_bouton_url:
+            label: URL du bouton
+            type: url
+            width: 1/2
+
+  activites:
+    icon: list-bullet
+    label: Nos activités
+    sections:
+      activites:
+        type: fields
+        fields:
+          activites_titre:
+            label: Titre de la section
+            type: text
+          activites:
+            label: Activités
+            type: structure
+            columns:
+              titre: true
+              description: true
+            fields:
+              titre:
+                label: Titre
+                type: text
+              description:
+                label: Description
+                type: textarea
+                size: small
+
+  dons:
+    icon: money
+    label: Cotisations et Dons
+    sections:
+      dons:
+        type: fields
+        fields:
+          dons_titre:
+            label: Titre
+            type: text
+          dons_texte:
+            label: Paragraphe
+            type: textarea
+            size: medium
+          dons_bouton_texte:
+            label: Texte du bouton
+            type: text
+            width: 1/2
+          dons_bouton_url:
+            label: URL du bouton
+            type: url
+            width: 1/2
+
+  deces:
+    icon: heart
+    label: Accompagnement décès
+    sections:
+      deces:
+        type: fields
+        fields:
+          deces_titre:
+            label: Titre
+            type: text
+          deces_texte:
+            label: Paragraphe
+            type: textarea
+            size: medium
+          deces_bouton_texte:
+            label: Texte du bouton
+            type: text
+            width: 1/2
+          deces_bouton_url:
+            label: URL du bouton
+            type: url
+            width: 1/2
+
+  seo: seo/page

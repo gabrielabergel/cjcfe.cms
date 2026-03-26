@@ -1,0 +1,122 @@
+title: Ressources
+
+icon: 📚
+
+status:
+  draft: true
+  listed: true
+
+tabs:
+  content:
+    icon: text
+    label: Contenu
+    sections:
+      content:
+        type: fields
+        fields:
+          titre:
+            label: Titre
+            type: blocks
+            width: 1/3
+            fieldsets:
+              - heading
+          soustitre:
+            label: Sous-titre
+            type: blocks
+            width: 1/3
+            fieldsets:
+              - text
+          #cover:
+          #  label: Cover
+          #  type: files
+          #  width: 1/3
+          #  max: 1
+          #  uploads:
+          #    template: image
+
+      ressources:
+        type: fields
+        fields:
+          ressources:
+            label: Ressources
+            type: structure
+            columns:
+              nom: true
+              tag: true
+            fields:
+              nom:
+                label: Nom
+                type: text
+                width: 1/2
+              tag:
+                label: Tag
+                type: tags
+                width: 1/2
+              lien:
+                label: Lien
+                type: url
+              fichier:
+                label: Fichier
+                type: files
+                max: 1
+      agenda:
+        type: fields
+        fields:
+          evenements:
+            label: Événements
+            type: structure
+            columns:
+              date: true
+              nom: true
+              lieu: true
+            fields:
+              date:
+                label: Date
+                type: date
+                width: 1/2
+              heuredebut:
+                label: Heure début
+                type: time
+                width: 1/4
+              heurefin:
+                label: Heure fin
+                type: time
+                width: 1/4
+              nom:
+                label: Nom de l'événement
+                type: text
+              description:
+                label: Description
+                type: textarea
+              lieu:
+                label: Lieu
+                type: text
+              image:
+                label: Image
+                type: files
+                max: 1
+                uploads: image
+  journal:
+    icon: book
+    label: Notre journal
+    sections:
+      journal:
+        type: fields
+        fields:
+          journal_titre:
+            label: Titre
+            type: text
+          journal_texte:
+            label: Paragraphe
+            type: textarea
+            size: medium
+          journal_bouton_texte:
+            label: Texte du bouton
+            type: text
+            width: 1/2
+          journal_bouton_url:
+            label: URL du bouton
+            type: url
+            width: 1/2
+
+  seo: seo/page

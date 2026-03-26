@@ -1,0 +1,76 @@
+title: Article
+
+status:
+  draft:
+    label: Brouillon
+    text: L'article est en mode brouillon. Il ne peut être vu que par les éditeurs avec accès au Panel.
+  listed:
+    label: Publié
+    text: L'article est en ligne et visible sur le site
+  unlisted:
+    label: Archivé
+    text: L'article est archivé et n'apparaît plus sur le site public
+
+options:
+  delete: true
+  changeSlug: true
+  changeStatus: true
+
+tabs:
+  content:
+    label: Contenu de l'article
+    icon: edit
+    fields:
+
+      main_title:
+        label: Titre principal
+        type: text
+        width: 2/3
+
+      date:
+        label: Date
+        type: date
+        width: 1/3
+        default: today
+
+      accroche:
+        label: Titre secondaire
+        type: text
+
+      show_in_hero:
+        label: Afficher dans le hero de la page d'accueil
+        type: toggle
+        text:
+          - Non
+          - Oui
+        width: 1/2
+        help: Maximum 3 articles peuvent être affichés dans le hero
+
+      image:
+        label: Image de couverture
+        type: files
+        multiple: false
+        uploads: image
+
+      resume:
+        label: Résumé
+        type: writer
+        size: medium
+        inline: true
+        marks:
+          - bold
+          - italic
+          - link
+        nodes:
+          - paragraph
+
+  layout:
+    label: Mise en page
+    icon: grid
+    fields:
+      layout:
+        label: Contenu
+        type: layout
+        layouts:
+          - "1/1"
+          - "1/2, 1/2"

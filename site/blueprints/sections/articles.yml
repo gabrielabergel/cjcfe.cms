@@ -1,0 +1,13 @@
+type: pages
+label: Articles
+parent: kirby.page("articles")
+size: small
+layout: cards
+template: article
+empty: Aucun article pour le moment
+status: all
+sortable: true
+image:
+  query: page.cover.toFile
+  cover: true
+  ratio: 16/9

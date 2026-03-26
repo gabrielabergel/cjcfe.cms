@@ -1,0 +1,138 @@
+title: Actualités
+
+status:
+  draft:
+    label: Brouillon
+    text: La page est en mode brouillon. Elle ne peut être vue que par les éditeurs avec accès au Panel.
+  listed:
+    label: Publiée
+    text: La page est en ligne et visible sur le site
+
+options:
+  changeSort: true
+  changeTemplate: false
+  changeSlug: true
+  delete: true
+  changeStatus: true
+
+num: default
+
+tabs:
+  content:
+    icon: text
+    label: Contenu
+    sections:
+      header:
+        type: fields
+        fields:
+          titre:
+            label: Titre
+            type: blocks
+            width: 1/2
+            fieldsets:
+              - heading
+          soustitre:
+            label: Sous-titre
+            type: blocks
+            width: 1/2
+            fieldsets:
+              - text
+      articles:
+        label: Liste des articles
+        type: pages
+        template: article
+        sortBy: date desc
+        sortable: true
+        info: "{{ page.date.toDate('d/m/Y') }}"
+        columns:
+          main_title:
+            label: Titre
+            type: text
+            value: "{{ page.main_title }}"
+            width: 1/3
+          date:
+            label: Date
+            type: text
+            value: "{{ page.date.toDate('d/m/Y') }}"
+            width: 1/6
+          hero:
+            label: Hero
+            type: text
+            value: "{{ page.showInHero }}"
+            width: 1/12
+          carousel:
+            label: Carousel
+            type: text
+            value: "{{ page.showInCarousel }}"
+            width: 1/12
+          status:
+            label: Statut
+            type: text
+            value: "{{ page.status }}"
+            width: 1/6
+      agenda:
+        type: fields
+        fields:
+          evenements:
+            label: Événements
+            type: structure
+            columns:
+              date: true
+              nom: true
+              lieu: true
+            fields:
+              date:
+                label: Date
+                type: date
+                width: 1/2
+              heuredebut:
+                label: Heure début
+                type: time
+                width: 1/4
+              heurefin:
+                label: Heure fin
+                type: time
+                width: 1/4
+              nom:
+                label: Nom de l'événement
+                type: text
+              description:
+                label: Description
+                type: textarea
+              lieu:
+                label: Lieu
+                type: text
+              image:
+                label: Image
+                type: files
+                max: 1
+                uploads: image
+
+  gazette:
+    icon: document
+    label: La gazette
+    sections:
+      gazette:
+        type: fields
+        fields:
+          gazette_titre:
+            label: Titre
+            type: text
+          gazette_soustitre:
+            label: Sous-titre
+            type: textarea
+            size: small
+          gazette_pdf:
+            label: Fichier PDF
+            type: files
+            max: 1
+            uploads:
+              template: document
+            accept:
+              - application/pdf
+          gazette_bouton_texte:
+            label: Texte du bouton
+            type: text
+            default: Télécharger la gazette
+
+  seo: seo/page
