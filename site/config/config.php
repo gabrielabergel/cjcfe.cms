@@ -2,7 +2,9 @@
 
 return [
   'debug' => true,
-  'ready' => true,               // Mark installation as complete
+  'panel' => [
+    'install' => true,           // Allow panel installation on server
+  ],
   'api' => [
     'basicAuth' => false,        // Disable API auth for local dev
     'allowInsecure' => true      // Allow HTTP
