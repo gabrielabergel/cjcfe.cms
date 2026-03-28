@@ -1,0 +1,46 @@
+name: Deploy to Infomaniak
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.3"
+          tools: composer
+
+      - name: Install dependencies
+        run: composer install --no-dev --prefer-dist --no-interaction --optimize-autoloader
+
+      - name: Deploy via SFTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          port: ${{ secrets.FTP_PORT || '21' }}
+          local-dir: ./
+          server-dir: ${{ secrets.FTP_PATH }}/
+          exclude: |
+            **/.git*
+            **/.github/**
+            **/.dev-logs/**
+            **/.DS_Store
+            **/content/**
+            **/media/**
+            **/site/accounts/**
+            **/site/cache/**
+            **/site/sessions/**
+            **/site/config/config.localhost.php
+            **/.user.ini
