@@ -64,4 +64,10 @@ AddOutputFilterByType DEFLATE application/x-javascript
 Header set Content-Type "text/plain" "expr=-z %{CONTENT_TYPE}"
 Header set X-Content-Type-Options "nosniff"
 
+# CORS headers for images and media files
+<FilesMatch "\.(jpg|jpeg|png|gif|webp|avif|svg|ico|woff|woff2|ttf|eot)$">
+  Header set Access-Control-Allow-Origin "*"
+  Header set Cross-Origin-Resource-Policy "cross-origin"
+</FilesMatch>
+
 </IfModule>
