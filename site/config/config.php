@@ -3,7 +3,7 @@
 return [
   'debug' => true,
   'panel' => [
-    'install' => true,           // Allow panel installation on server
+    'install' => false,
   ],
   'api' => [
     'basicAuth' => false,        // Disable API auth for local dev
