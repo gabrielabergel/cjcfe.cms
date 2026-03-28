@@ -41,46 +41,9 @@ const HISTORIA_IMAGE_DEFAULTS = [
 
 Kirby::plugin('historia/images', [
 
-    // ─── Composant thumb pour servir les images originales en mode debug ─────
-    'components' => [
-        'thumb' => function (
-            \Kirby\Cms\App $kirby,
-            \Kirby\Cms\File|\Kirby\Filesystem\Asset $file,
-            array $options = []
-        ) {
-            // En mode debug, retourner le fichier original au lieu de générer un thumb
-            if ($kirby->option('debug', false)) {
-                // Retourner le fichier original tel quel
-                return $file;
-            }
-
-            // En production, utiliser le comportement par défaut
-            if ($file->isResizable() === false) {
-                return $file;
-            }
-
-            $mediaRoot = $file->mediaDir();
-            $template  = $mediaRoot . '/{{ name }}{{ attributes }}.{{ extension }}';
-            $thumbRoot = (new \Kirby\Filesystem\Filename($file->root(), $template, $options))->toString();
-            $thumbName = basename($thumbRoot);
-
-            if (file_exists($thumbRoot) === false) {
-                $job = $mediaRoot . '/.jobs/' . $thumbName . '.json';
-                try {
-                    \Kirby\Data\Data::write($job, [...$options, 'filename' => $file->filename()]);
-                } catch (\Throwable) {
-                    return $file;
-                }
-            }
-
-            return new \Kirby\Cms\FileVersion([
-                'modifications' => $options,
-                'original'      => $file,
-                'root'          => $thumbRoot,
-                'url'           => $file->mediaUrl($thumbName),
-            ]);
-        }
-    ],
+    // NOTE: Le composant thumb custom a été retiré pour permettre à file.resize()
+    // de fonctionner correctement via KQL. Kirby utilise maintenant son système
+    // de thumbs natif.
 
     'fileMethods' => [
 
