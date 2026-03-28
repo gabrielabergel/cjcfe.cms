@@ -40,6 +40,8 @@ return [
       'allowed' => [
         'kirby\cms\file::historiaimage',
         'kirby\cms\file::devurl',
+        'kirby\cms\file::resize',
+        'kirby\cms\file::thumb',
         'kirby\cms\page::responsiveimage',
         'kirby\cms\page::layoutswithimages',
         // Page models custom (sans namespace → nom de classe brut)
