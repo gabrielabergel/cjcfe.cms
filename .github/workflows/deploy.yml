@@ -22,6 +22,13 @@ jobs:
       - name: Install dependencies
         run: composer install --no-dev --prefer-dist --no-interaction --optimize-autoloader
 
+      - name: Create .env (SMTP)
+        run: |
+          cat > .env << EOF
+          SMTP_USERNAME=${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD=${{ secrets.SMTP_PASSWORD }}
+          EOF
+
       - name: Deploy via SFTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
