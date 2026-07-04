@@ -119,4 +119,5 @@ tabs:
             type: url
             width: 1/2
 
-  seo: seo/page
+  seo:
+    extends: tabs/seo

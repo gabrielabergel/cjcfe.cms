@@ -76,11 +76,44 @@ tabs:
           evenements:
             label: Événements
             type: structure
+            sortBy: date asc
             columns:
+              statut:
+                label: Statut
+                width: 1/6
               date: true
               nom: true
               lieu: true
             fields:
+              statut:
+                label: Statut
+                type: select
+                width: 1/3
+                default: publie
+                options:
+                  publie: Publié
+                  brouillon: Brouillon
+                  archive: Archivé
+                help: Les événements archivés ou en brouillon peuvent rester dans le CMS sans être affichés publiquement.
+              categorie:
+                label: Catégorie
+                type: select
+                width: 1/3
+                options:
+                  office: Office
+                  fete: Fête
+                  conference: Conférence
+                  ceremonie: Cérémonie
+                  cours: Cours / étude
+                  vie-communautaire: Vie communautaire
+                  autre: Autre
+              mise_en_avant:
+                label: Mettre en avant
+                type: toggle
+                width: 1/3
+                text:
+                  - Non
+                  - Oui
               date:
                 label: Date
                 type: date
@@ -96,17 +129,72 @@ tabs:
               nom:
                 label: Nom de l'événement
                 type: text
+                required: true
+              accroche:
+                label: Accroche courte
+                type: text
+                help: Une phrase courte pour résumer l'événement dans les listes ou futurs blocs de mise en avant.
               description:
                 label: Description
-                type: textarea
+                type: writer
+                marks:
+                  - bold
+                  - italic
+                  - link
+                nodes:
+                  - paragraph
+                  - bulletList
+                  - orderedList
+                help: Texte public affiché quand l'événement est ouvert sur le site.
+              intervenant:
+                label: Intervenant / officiant
+                type: text
+                width: 1/2
               lieu:
                 label: Lieu
                 type: text
+                width: 1/2
+              adresse:
+                label: Adresse complète
+                type: textarea
+                size: tiny
+                buttons: false
+                help: Facultatif. À remplir si le lieu seul ne suffit pas.
+              participation:
+                label: Participation / tarif
+                type: text
+                width: 1/2
+                placeholder: ex. PAF 6 €, entrée libre, sur inscription...
+              inscription:
+                label: Modalités d'inscription
+                type: text
+                width: 1/2
+                placeholder: ex. Inscription avant le 15 mars
+              contact:
+                label: Contact
+                type: text
+                width: 1/2
+                placeholder: Email, téléphone ou WhatsApp
+              lien:
+                label: Lien
+                type: url
+                width: 1/2
+              lien_texte:
+                label: Texte du lien
+                type: text
+                width: 1/2
+                placeholder: S'inscrire, En savoir plus...
               image:
                 label: Image
                 type: files
                 max: 1
                 uploads: image
+              note_interne:
+                label: Note interne
+                type: textarea
+                size: tiny
+                buttons: false
+                help: Non affiché sur le site.
 
   gazette:
     icon: document
@@ -135,4 +223,5 @@ tabs:
             type: text
             default: Télécharger la gazette
 
-  seo: seo/page
+  seo:
+    extends: tabs/seo

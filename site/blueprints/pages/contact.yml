@@ -82,4 +82,5 @@ tabs:
         type: textarea
         size: small
 
-  seo: seo/page 
+  seo:
+    extends: tabs/seo

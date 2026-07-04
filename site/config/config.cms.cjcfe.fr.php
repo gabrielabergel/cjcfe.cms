@@ -18,10 +18,14 @@ return [
         'kirby\cms\file::devurl',
         'kirby\cms\file::resize',
         'kirby\cms\file::thumb',
+        'kirby\cms\file::focus',
         'kirby\cms\page::responsiveimage',
         'kirby\cms\page::layoutswithimages',
+        'kirby\cms\page::seo',
+        'kirby\cms\site::seodefaults',
         'lieupage::responsiveimage',
         'articlepage::layoutwithresolvedfiles',
+        'articlepage::seo',
       ]
     ]
   ],

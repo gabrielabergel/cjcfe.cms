@@ -1,0 +1,54 @@
+label: SEO
+icon: search
+
+columns:
+  - width: 1/2
+    fields:
+      site_title:
+        label: Titre du site
+        type: text
+        help: Nom du site, ajouté après le titre de chaque page et utilisé comme nom Open Graph.
+
+      seo_description:
+        label: Description par défaut
+        type: textarea
+        maxlength: 160
+        buttons: false
+        help: Description de la home et valeur de repli pour les pages sans description propre.
+
+      og_description:
+        label: Description Open Graph (home)
+        type: textarea
+        maxlength: 200
+        buttons: false
+
+      og_image:
+        label: Image de partage par défaut
+        type: files
+        multiple: false
+        max: 1
+        query: site.images
+        uploads:
+          template: image
+        help: Recommandé 1200x630px. Utilisée pour la home et en repli pour les pages sans image propre.
+
+  - width: 1/2
+    fields:
+      _index_headline:
+        type: headline
+        label: Indexation de la home
+
+      seo_index:
+        label: Indexer la home
+        type: toggle
+        default: true
+
+      seo_follow:
+        label: Suivre les liens
+        type: toggle
+        default: true
+
+      seo_index_images:
+        label: Indexer les images
+        type: toggle
+        default: true

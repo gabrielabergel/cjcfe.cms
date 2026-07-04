@@ -45,4 +45,5 @@ tabs:
             uploads:
               template: image
 
-  seo: seo/page
+  seo:
+    extends: tabs/seo

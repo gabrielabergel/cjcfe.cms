@@ -1,0 +1,71 @@
+label: SEO
+icon: search
+
+columns:
+  - width: 1/2
+    fields:
+      _seo_headline:
+        type: headline
+        label: Référencement
+
+      seo_title:
+        label: Titre de la page
+        type: text
+        help: Affiché dans l'onglet du navigateur et les résultats Google. Si vide, le titre de la page est utilisé.
+
+      seo_description:
+        label: Description de la page
+        type: textarea
+        maxlength: 160
+        buttons: false
+        help: "Environ 150-160 caractères. Si vide, la description par défaut du site est utilisée."
+
+      _og_headline:
+        type: headline
+        label: Open Graph (partage réseaux sociaux)
+
+      og_title:
+        label: Titre Open Graph
+        type: text
+        help: Si vide, le titre SEO est utilisé.
+
+      og_description:
+        label: Description Open Graph
+        type: textarea
+        maxlength: 200
+        buttons: false
+        help: Si vide, la description SEO est utilisée.
+
+      og_image:
+        label: Image de partage
+        type: files
+        multiple: false
+        max: 1
+        query: page.images
+        uploads:
+          template: image
+        help: Recommandé 1200x630px. Si vide, l'image de partage par défaut du site est utilisée.
+
+  - width: 1/2
+    fields:
+      _index_headline:
+        type: headline
+        label: Indexation
+
+      seo_index:
+        label: Indexer cette page
+        type: toggle
+        default: true
+        help: Autorise les moteurs de recherche à référencer la page.
+
+      seo_follow:
+        label: Suivre les liens
+        type: toggle
+        default: true
+        help: Autorise les moteurs à suivre les liens présents sur la page.
+
+      seo_index_images:
+        label: Indexer les images
+        type: toggle
+        default: true
+        help: Autorise l'indexation des images de la page.

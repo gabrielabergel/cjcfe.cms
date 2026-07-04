@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c46c01dfd7ac6668653e41dfef376fc",
+    "content-hash": "00e852c3a81bd521a67815e850a10727",
     "packages": [
         {
             "name": "christian-riesen/base32",
@@ -1271,82 +1271,17 @@
                 }
             ],
             "time": "2025-12-04T18:11:45+00:00"
-        },
-        {
-            "name": "tobimori/kirby-seo",
-            "version": "2.0.0-alpha.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tobimori/kirby-seo.git",
-                "reference": "70205675438fe094d3b43e80731dee6f6b993dcc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tobimori/kirby-seo/zipball/70205675438fe094d3b43e80731dee6f6b993dcc",
-                "reference": "70205675438fe094d3b43e80731dee6f6b993dcc",
-                "shasum": ""
-            },
-            "require": {
-                "getkirby/composer-installer": "^1.2.1",
-                "php": ">=8.3.0"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.48",
-                "getkirby/cli": "^1.8.0",
-                "getkirby/cms": "^5.0.0",
-                "spatie/schema-org": "^3.23",
-                "tobimori/kirby-queues": "^1.0.0-beta.1"
-            },
-            "suggest": {
-                "getkirby/cli": "Enable background processing support",
-                "spatie/schema-org": "Enable the Schema.org support",
-                "tobimori/kirby-queues": "Enable background processing support"
-            },
-            "type": "kirby-plugin",
-            "extra": {
-                "kirby-cms-path": false
-            },
-            "autoload": {
-                "psr-4": {
-                    "tobimori\\Seo\\": "classes"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "proprietary"
-            ],
-            "authors": [
-                {
-                    "name": "Tobias Möritz",
-                    "email": "tobias@moeritz.io"
-                }
-            ],
-            "description": "The default choice for SEO on Kirby: Implement technical SEO & Meta best practices with ease and provide an easy-to-use editor experience",
-            "homepage": "https://github.com/tobimori/kirby-seo#readme",
-            "support": {
-                "issues": "https://github.com/tobimori/kirby-seo/issues",
-                "source": "https://github.com/tobimori/kirby-seo/tree/2.0.0-alpha.8"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/tobimori",
-                    "type": "github"
-                }
-            ],
-            "time": "2025-10-28T11:41:58+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "tobimori/kirby-seo": 15
-    },
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0"
     },
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.6.0"
 }

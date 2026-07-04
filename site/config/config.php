@@ -45,16 +45,15 @@ return [
         'kirby\cms\file::focus',
         'kirby\cms\page::responsiveimage',
         'kirby\cms\page::layoutswithimages',
+        'kirby\cms\page::seo',
+        'kirby\cms\site::seodefaults',
         // Page models custom (sans namespace → nom de classe brut)
         'lieupage::responsiveimage',
         'articlepage::layoutwithresolvedfiles',
+        'articlepage::seo',
       ]
     ]
   ],
-  'plugins' => [
-    'tobimori/seo' => false,
-  ],
-
   // ─── Presets images responsive (plugin historia/images) ─────────
   // Chaque preset définit : max (largeur max en px), widths (breakpoints srcset),
   // fallbackQuality (jpeg/png), webpQuality, avifQuality, defaultSizes (attribut sizes).
